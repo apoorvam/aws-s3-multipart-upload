@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	maxPartSize        = int64(512 * 1000)
+	maxPartSize        = int64(5 * 1024 * 1024)
 	maxRetries         = 3
 	awsAccessKeyID     = "Your access key"
 	awsSecretAccessKey = "Your secret key"
